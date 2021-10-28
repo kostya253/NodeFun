@@ -4,7 +4,7 @@ This is an open source project, designed to learn Github Actions
 
 And enjoy the last days in my current job @ CheckPoint Software Technologies
 
-Please visit: <https://my-cp-departure.herokuapp.com> to see this code in action ;)
+Please visit: <https://my-cp-departure.herokuapp.com> to see this code in action ;) - This site no more works
 
 Had to install Docker for Windows and run super-linter to fix all issues at onces (one of those was: npx standard --fix)
 
