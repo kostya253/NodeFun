@@ -29,7 +29,7 @@ pipeline {
         stage('Run test') {
             steps {
                 container('node') {
-                    sh 'node run test'
+                    sh 'npm run test'
                 }
             }
         }
