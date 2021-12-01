@@ -10,3 +10,5 @@ Had to install Docker for Windows and run super-linter to fix all issues at once
 
 Running Linter:
 docker run -e RUN_LOCAL=true -v C:\Users\Konstantin\Documents\Development\MyDepartureLinting\NodeFun:/tmp/lint github/super-linter
+
+Added support for Jenkins through webhooks
