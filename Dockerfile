@@ -10,6 +10,6 @@ COPY package-lock.json /app/package-lock.json
 
 RUN npm ci
 
-CMD "npm" "run"
+CMD ["npm", "run"]
 
 EXPOSE 3000
