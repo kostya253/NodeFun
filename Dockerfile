@@ -1,4 +1,4 @@
-FROM node:lts-alpine as runtime
+FROM ubuntu:latest as runtime
 
 WORKDIR /app
 
