@@ -1,4 +1,4 @@
-FROM ubuntu:latest as runtime
+FROM eclipse-temurin:17.0.4_8-jdk-jammy as runtime
 
 WORKDIR /app
 
