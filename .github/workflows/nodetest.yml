@@ -25,3 +25,8 @@ jobs:
         run: npm ci
       - run: npm run build --if-present
       - run: npm test
+      - name: Archive code coverage results
+        uses: actions/upload-artifact@v3
+        with:
+          name: save-app
+          path: app.js
